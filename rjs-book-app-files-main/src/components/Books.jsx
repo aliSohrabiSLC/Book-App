@@ -34,7 +34,11 @@ function Books() {
 
   return (
     <>
-      <SearchBox search={search} setSearch={setSearch} searchHandler={searchHandler} />
+      <SearchBox
+        search={search}
+        setSearch={setSearch}
+        searchHandler={searchHandler}
+      />
       <div className={styles.container}>
         <div className={styles.cards}>
           {books.map((book) => (

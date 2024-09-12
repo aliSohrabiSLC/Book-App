@@ -1,5 +1,4 @@
-import styles from "./SideCard.module.css"
-
+import styles from "./SideCard.module.css";
 
 function SideCard({ data: { image, title } }) {
   return (
